@@ -13,3 +13,5 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+// 터미널에 패키지 복사, 
