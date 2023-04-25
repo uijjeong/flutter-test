@@ -15,3 +15,14 @@ class MyApp extends StatelessWidget {
 }
 
 // 터미널에 패키지 복사, 
+
+class OnboardingPage extends StatelessWidget {
+  const OnboardingPage({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Center(child: Text("Hello OnboardingPage")),
+    );
+  }
+}
